@@ -1,6 +1,6 @@
 @font-face{
-    font-family: Roboto;
-    src: url(/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+    font-family: CustomCursive;
+    src: url("Allura-Regular.ttf");
 }
 body {
 	background-image: url("engpic.jpg");
@@ -11,5 +11,8 @@ body {
 	margin: 8%;
 	height: 60px;
 	width: 120px;
+	font-family: CustomCursive;
+	padding-top: .5% !important;
+	font-size: 200% !important;
 }
 
