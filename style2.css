@@ -5,14 +5,33 @@
 body {
 	background-image: url("test index.JPG");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
+	background-position: center;
+	overflow: auto;
 }
 .navbar-brand {
 	padding-left: 2%;
 }
-.nav-item {
-	font-family: CustomCursive;
-	font-size: 200%;
-	margin-left: 50%
+.btn {
+	margin: 50px;
+	width: 100px;
+	
 }
+html {
+	height: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+.wall {
+	margin-top:300px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+.page-title {
+	margin-top: 1%;
+	font-size: 200px;
+	font-weight: lighter;
+	color: whitesmoke;
+}
+
 
