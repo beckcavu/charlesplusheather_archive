@@ -8,9 +8,12 @@ body {
 	background-size:cover;
 	background-position: center;
 	overflow: auto;
+	
 }
 .navbar-brand {
 	padding-left: 2%;
+	font-family: CustomCursive;
+	font-size: 45px !important;
 }
 .btn {
 	margin: 50px;
@@ -26,12 +29,16 @@ html {
 	margin-top:300px;
 	margin-left: 400px;
 	margin-right: 400px;
+	color: grey;
 }
 .page-title {
-	margin-top: 1%;
+	margin-top: -70px;
 	font-size: 200px;
 	font-weight: lighter;
 	color: whitesmoke;
 }
-
+.scrollicon {
+	height: 50px;
+	width: 100px;
+}
 
