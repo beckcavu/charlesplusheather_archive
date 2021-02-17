@@ -3,20 +3,43 @@
     src: url("Allura-Regular.ttf");
 }
 body {
-	background-image: url("");
+	background-image: url("IMG_0775.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
+	background-position: center;
+	overflow-x: hidden;
+	
 }
 .navbar-brand {
 	padding-left: 2%;
-}
-.nav-item {
 	font-family: CustomCursive;
-	font-size: 200%;
-	margin-left: 50%
+	font-size: 45px !important;
 }
-.title {
-	margin: 200px;
+.btn {
+	margin: 50px;
+	width: 100px;
+	
 }
-/* CSS Document */
-
+html {
+	height: 100%;
+	width: 100%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.wall {
+	margin-top:300px;
+	margin-left: 400px;
+	margin-right: 400px;
+	color: black;
+}
+.page-title {
+	margin-top: -70px;
+	font-size: 200px;
+	font-weight: lighter;
+	color: whitesmoke;
+}
+.scrollicon {
+	position: relative;
+	height: 50px;
+	width: 100px;
+}
