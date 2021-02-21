@@ -3,21 +3,24 @@
     src: url("Allura-Regular.ttf");
 }
 body {
-	background-image: url("test index.JPG");
+	background-image: url("images/test index.JPG");
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-position: center;
+	background-position: bottom;
 	overflow-x: hidden;
+
 	
 }
 .navbar-brand {
 	padding-left: 2%;
 	font-family: CustomCursive;
-	font-size: 45px !important;
+	font-size: 300% !important;
+}
+.navbar-custom {
+	background-color: beige !important;
 }
 .btn {
-	margin: 50px;
-	width: 100px;
+	margin-left: 2%;
 	
 }
 html {
@@ -27,20 +30,26 @@ html {
     overflow-y: scroll;
 }
 .wall {
-	margin-top:300px;
-	margin-left: 400px;
-	margin-right: 400px;
+	margin-top:1%;
+	margin-left: 20%;
+	margin-right: 20%;
 	color: black;
 }
 .page-title {
-	margin-top: -70px;
-	font-size: 200px;
+	margin-top: 20%;
+	font-family: CustomCursive;
+	font-size: 550%;
 	font-weight: lighter;
-	color: whitesmoke;
+	color: beige;
 }
 .scrollicon {
 	position: relative;
-	height: 50px;
-	width: 100px;
+	height: 2%;
+	width: 5%;
+}
+.subheader {
+	font-family: CustomCursive;
+	font-size: 250%;
+	color: white;
 }
 
