@@ -1,14 +1,27 @@
-function getTodaysDate() {
- 
- var now = new Date();
- var days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
- var months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
- var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+var countDownDate = new Date("Nov 6, 2021 12:01:00").getTime();
 
- var today = days[now.getDay()] + ", " +
-  months[now.getMonth()] + " " +
-  date + ", " +
-  now.getFullYear();
+// Update the count down every 1 second
+var x = setInterval(function() {
 
- return (today);
-}
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("countdown").innerHTML = days + "days " + hours + "hours  "
+  + minutes + "minutes " + seconds + "seconds ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
