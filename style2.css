@@ -346,7 +346,7 @@ html {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 	  .bigheader {
-		margin-top: 10% !important;
+		margin-top: 5% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -365,11 +365,12 @@ html {
 	}
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width:1601px) {
 	.bigheader {
 		margin-top: 10% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
 }
+
 
