@@ -65,6 +65,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+.page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* Portrait */
@@ -78,6 +85,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* Landscape */
@@ -91,6 +105,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -105,6 +126,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* Portrait */
@@ -118,6 +146,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* Landscape */
@@ -131,6 +166,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* ----------- iPhone X ----------- */
@@ -145,6 +187,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* Portrait */
@@ -158,6 +207,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 
 /* Landscape */
@@ -171,6 +227,13 @@ html {
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
+	  .page-title {
+	margin-top: 10%;
+	font-family: CustomCursive;
+	font-size: 250%;
+	font-weight: lighter;
+	color: beige;
+}
 }
 /* ----------- iPad 1, 2, Mini and Air ----------- */
 
