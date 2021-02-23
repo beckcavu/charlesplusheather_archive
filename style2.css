@@ -11,9 +11,6 @@ body {
 
 	
 }
-.navbar-toggler .navbar-toggler-icon{
-	
-}
 .navbar-brand {
 	padding-left: 2%;
 	font-family: CustomCursive;
@@ -23,8 +20,8 @@ body {
 	background-color: beige !important;
 }
 .btn {
-	margin-left: 2%;
-	
+	padding-left: 2%;
+	padding-left: 2%;
 }
 html {
 	height: 100%;
