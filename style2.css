@@ -61,7 +61,7 @@ html {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -86,7 +86,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -111,7 +111,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -137,7 +137,7 @@ html {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -162,7 +162,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -187,7 +187,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -213,7 +213,7 @@ html {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -238,7 +238,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
@@ -263,7 +263,7 @@ html {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
 .bigheader {
-		margin-top: 50% !important;
+		margin-top: 65% !important;
 		font-family: CustomCursive;
 		font-size: 300%;
 	}
