@@ -2,6 +2,9 @@
     font-family: CustomCursive;
     src: url("Allura-Regular.ttf");
 }
+.navbar-nav {
+	font-family: 'Playfair Display', serif;
+}
 body {
 	background-image: url("images/test index.JPG");
 	background-repeat: no-repeat;
