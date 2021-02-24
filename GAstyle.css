@@ -13,3 +13,8 @@ body {
 #h1_address {
 	font-size: 100%;
 }
+.hotelheader {
+	margin-top: 1%;
+			font-family: CustomCursive;
+		font-size: 300%;
+}
